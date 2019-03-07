@@ -7,3 +7,4 @@
     copy:
       src: /home/oracle/software
       dest: /tmp/scripts
+    remote_src: true
