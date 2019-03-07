@@ -1,2 +1,2 @@
-alter toburke identified by changeme123;
+alter user toburke identified by changeme123;
 exit;
