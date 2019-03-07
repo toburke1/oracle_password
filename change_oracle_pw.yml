@@ -5,5 +5,5 @@
   tasks:
   - name: Copy Oracle SQL Scripts to Hosts
     git:
-      repo: 'https:/github.com/toburke1/oracle_password/scripts
+      repo: https:/github.com/toburke1/oracle_password/scripts
       dest: /tmp
