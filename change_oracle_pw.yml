@@ -8,6 +8,6 @@
     copy:
       src: /home/oracle/software/changepwd.sql
       dest: /tmp/scripts/changepwd.sql
-      ower: oracle
+      owner: oracle
       group: oinstall
       mode: 0755
