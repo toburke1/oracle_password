@@ -6,4 +6,4 @@
   - name: Copy Oracle SQL Scripts to Hosts
     git:
       repo: 'https:/github.com/toburke1/oracle_password/scripts
-      dest: /tmp/changepwd.sql
+      dest: /tmp
