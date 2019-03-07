@@ -1,0 +1,9 @@
+---
+- name: Copy oracle sql script to host and update Oracle Password
+  hosts: all
+  
+  tasks:
+  - name: Copy Oracle SQL Scripts to Hosts
+    copy:
+      src: /home/oracle/software/changepwd.sql
+      dest: /tmp/changepwd.sql
