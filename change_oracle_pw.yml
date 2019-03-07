@@ -7,4 +7,4 @@
     copy:
       src: /home/oracle/software
       dest: /tmp/scripts
-      remote_src: true
+      delegate_to: oraserv2.rhpds.opentlc.com
