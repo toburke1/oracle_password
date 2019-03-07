@@ -3,4 +3,4 @@
   hosts: all
   tasks:
   - name: execute sql script
-    shell: 'sqlplus / as sysdba @/tmp/changepwd.sql'
+    shell: sqlplus / as sysdba @/tmp/changepwd.sql
