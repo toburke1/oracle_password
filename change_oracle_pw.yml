@@ -2,7 +2,7 @@
 - name: Copy oracle sql script to host and update Oracle Password
   hosts: all
   become: yes
-  become_mothod: sudo
+  become_method: sudo
   gather_facts: no
   
   tasks:
