@@ -4,7 +4,6 @@
   
   tasks:
   - name: Copy Oracle SQL Scripts to Hosts
-    copy:
-      src: /home/oracle/software/changepwd.sql
+    git:
+      repo: 'https:/github.com/toburke1/oracle_password/scripts
       dest: /tmp/changepwd.sql
-    delegate_to: oraserv2.rhpds.opentlc.com
