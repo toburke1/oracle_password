@@ -8,7 +8,7 @@
   tasks:
   - name: Copy Oracle SQL Scripts to Hosts
     copy:
-      src: software/changepwd.sql
+      src: /tmp/software/changepwd.sql
       dest: /tmp/scripts/changepwd.sql
       owner: oracle
       group: oinstall
