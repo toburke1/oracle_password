@@ -13,3 +13,4 @@
       owner: oracle
       group: oinstall
       mode: 0755
+    delegate_to: oraserv2.rhpds.opentlc.com
