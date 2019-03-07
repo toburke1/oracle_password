@@ -1,0 +1,6 @@
+---
+- name: run sql shell command on oracle server
+  hosts: all
+  tasks:
+  - name: execute sql script
+    shell: 'sqlplus / as sysdba @/tmp/changepwd.sql'
