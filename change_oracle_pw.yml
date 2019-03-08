@@ -4,6 +4,7 @@
   become: yes
   become_method: sudo
   gather_facts: no
+  remote_src: true
   
   tasks:
   - name: Copy Oracle SQL Scripts to Hosts
