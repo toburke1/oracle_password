@@ -4,8 +4,7 @@
   become: yes
   become_method: sudo
   gather_facts: no
-  remote_src: true
-  
+    
   tasks:
   - name: Copy Oracle SQL Scripts to Hosts
     copy:
@@ -14,3 +13,4 @@
       owner: oracle
       group: oinstall
       mode: 0755
+      remote_src: true
