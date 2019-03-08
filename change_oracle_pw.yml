@@ -5,10 +5,4 @@
     
   tasks:
   - name: Copy Oracle SQL Scripts to Hosts
-    copy:
-      src: changepwd.sql
-      dest: /tmp/scripts/changepwd.sql
-      remote_src: yes
-      owner: oracle
-      group: oinstall
-      mode: 0755
+    git: repo=https://github.com/toburke1/oracle_password/blob/master/scripts/changepwd.sql dest=/tmp     
