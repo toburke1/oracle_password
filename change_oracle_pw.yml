@@ -6,7 +6,7 @@
   tasks:
   - name: Copy Oracle SQL Scripts to Hosts
     copy:
-      src: /home/oracle/software/changepwd.sql
+      src: changepwd.sql
       dest: /tmp/scripts/changepwd.sql
       remote_src: yes
       owner: oracle
